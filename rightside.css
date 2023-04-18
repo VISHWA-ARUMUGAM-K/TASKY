@@ -90,7 +90,7 @@
   border-radius: 15px;
 }
 
-.task1 {
+.task {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -141,7 +141,7 @@
 .pic {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
   border-radius: 50%;
 }
 
