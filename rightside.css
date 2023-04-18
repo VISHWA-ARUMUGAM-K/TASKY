@@ -106,7 +106,7 @@
   transition: 0.1s all;
 }
 
-.task1:hover {
+.task:hover {
   transform: scale(0.99);
   box-shadow: 2px 2px 2px #6beee7, -1px -1px 20px #6beee7;
 }
