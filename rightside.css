@@ -1,10 +1,158 @@
 .right-side {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: center !important;
 
   width: 700px;
   min-width: 250px;
   height: 100%;
+}
+.login_and_heading {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 3%;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.user {
+  width: 20px;
+  padding-top: 13px;
+  margin-right: 10px;
+}
+
+.letterv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  width: 35px;
+  height: 35px;
+
+  background-color: black;
+  color: white;
+
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: "DM Sans", sans-serif;
+  font-size: 35px;
+
+  margin-bottom: 15px;
+}
+
+.schedule_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 800px;
+
+  border-radius: 20px;
+  padding-top: 10px;
+
+  overflow: auto;
+}
+
+.schedule_content::-webkit-scrollbar {
+  background-color: white;
+  margin-right: 10px;
+
+  width: 7px;
+}
+
+.schedule_content::-webkit-scrollbar-track {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  width: 5px;
+}
+
+.schedule_content::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+
+.task1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 160px;
+  /* background-color: rgb(255, 249, 184); */
+  background: var(--nammablue);
+  border-radius: 20px;
+
+  margin-bottom: 25px;
+  padding-left: 20px;
+
+  transition: 0.1s all;
+}
+
+.task1:hover {
+  transform: scale(0.99);
+  box-shadow: 2px 2px 2px #6beee7, -1px -1px 20px #6beee7;
+}
+
+.leftpart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 95%;
+  width: 90%;
+
+  gap: 15px;
+  padding-left: 8px;
+  padding-top: 20px;
+}
+
+.leftpart-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+
+  margin-top: 7px;
+}
+
+.leftpart-image {
+  width: 50px;
+  height: 50px;
+
+  margin-right: 20px;
+}
+.pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.rightpart {
+  position: relative;
+  width: 10%;
+}
+
+.three_dots {
+  position: absolute;
+  top: -60px;
+  right: 0;
+  width: 100%;
 }
